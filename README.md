@@ -1,6 +1,6 @@
-# MELORA
+# FAMED
 
-**MELORA: Medication Recommendation with Long and Short
+**FAMED: Medication Recommendation with Long and Short
 Patient Health State Adaptively Fusion**
 
 For reproduction of medication prediction results in our paper, see instructions below.
@@ -9,13 +9,13 @@ For reproduction of medication prediction results in our paper, see instructions
 
 ## Overview
 
-This repository contains code necessary to run the **MELORA** model.
+This repository contains code necessary to run the **FAMED** model.
 
-MELORA is an end-to-end medication recommendation framework that explicitly models patient temporal health states at multiple time scales. It integrates long-term stable health conditions and short-term transient clinical changes through a time–frequency decomposition and adaptive fusion mechanism.
+FAMED is an end-to-end medication recommendation framework that explicitly models patient temporal health states at multiple time scales. It integrates long-term stable health conditions and short-term transient clinical changes through a time–frequency decomposition and adaptive fusion mechanism.
 
 Longitudinal patient history information and drug–drug interaction (DDI) knowledge are jointly leveraged to provide accurate, safe, and personalized medication combination recommendations.
 
-MELORA is evaluated on real-world clinical datasets **MIMIC-III** and **MIMIC-IV**, where it consistently outperforms state-of-the-art medication recommendation models across multiple effectiveness metrics, while maintaining competitive or lower DDI rates.
+FAMED is evaluated on real-world clinical datasets **MIMIC-III** and **MIMIC-IV**, where it consistently outperforms state-of-the-art medication recommendation models across multiple effectiveness metrics, while maintaining competitive or lower DDI rates.
 
 
 ## Requirements
@@ -44,7 +44,7 @@ cd ./data/mimic-iv/
 python processing_mimic-iv.py
 python processing_mimic-iv-ATC4.py
 ```
-### MELORA
+### FAMED
 
 ```python
 cd .
