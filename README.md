@@ -1,7 +1,7 @@
 # FAMED
 
-**FAMED: Medication Recommendation with Long and Short
-Patient Health State Adaptively Fusion**
+**FAMED: Frequency-aware Health Modeling for Personalized Medication
+Recommendation**
 
 For reproduction of medication prediction results in our paper, see instructions below.
 
@@ -11,7 +11,7 @@ For reproduction of medication prediction results in our paper, see instructions
 
 This repository contains code necessary to run the **FAMED** model.
 
-FAMED is an end-to-end medication recommendation framework that explicitly models patient temporal health states at multiple time scales. It integrates long-term stable health conditions and short-term transient clinical changes through a time–frequency decomposition and adaptive fusion mechanism.
+FAMED is an end-to-end medication recommendation framework that explicitly models patient temporal health states at multiple time scales. It integrates stable health conditions and transient clinical changes through a time–frequency decomposition and adaptive fusion mechanism.
 
 Longitudinal patient history information and drug–drug interaction (DDI) knowledge are jointly leveraged to provide accurate, safe, and personalized medication combination recommendations.
 
