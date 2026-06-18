@@ -191,7 +191,7 @@ class ScaleMedicationAttention(nn.Module):
         return out
 
 
-class MELORA(nn.Module):
+class FAMED(nn.Module):
     def __init__(
             self,
             vocab_size,
