@@ -228,7 +228,7 @@ def main():
     # initialize_model
     voc_size = (len(diag_voc.idx2word), len(pro_voc.idx2word), len(med_voc.idx2word))
 
-    model = MELORA(
+    model = FAMED(
         voc_size,
         ehr_adj,
         ddi_adj,
